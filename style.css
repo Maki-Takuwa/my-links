@@ -3,23 +3,26 @@
     padding: 0;
 }
 body {
-    background-color: black;
+    background: pink;
+    background-repeat: repeat;
+    background-size: 100%;
     font-family: sans-serif;
 }
 
 img {
-    border-radius: 20px;
+    border-radius: 50%;
     width: 320px;
-    height: 420px;
+    height: 320px;
+    border: 10px solid whitesmoke;
 }
 
 h1 {
-    color: white;
+    color: gray;
     margin-top: 31px;
 }
 
 p {
-    color: white;
+    color: whitesmoke;
 }
 
 ul {
@@ -32,12 +35,17 @@ li {
 }
 
 a {
-    background-color: limegreen;
-    color: white;
+    background-color: skyblue;
+    color: black;
     padding: 15px;
     text-decoration: none;
     display: block;
     border-radius: 5px;
+}
+
+a:hover {
+    background-color: white;
+    color: purple;
 }
 
 footer{
@@ -45,10 +53,13 @@ footer{
 }
 
 .container {
-    background-color: black;
-    width: 320px;
+    background: pink;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 380%;
+    width: 340px;
     text-align: center;
-    margin-top: 41px;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
 
